@@ -4,8 +4,8 @@ pipeline {
 
         stage("initial-stage"){
             steps{
-                sh `echo 
-                        "Hello, this is the initial-stage"
+                sh `
+                    echo "Hello, this is the initial-stage"
                     mkdir "sample_dir" 
                 `
             
