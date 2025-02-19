@@ -4,10 +4,10 @@ pipeline {
 
         stage("initial-stage"){
             steps{
-                sh `
+                sh '''
                     echo "Hello, this is the initial-stage"
                     mkdir "sample_dir" 
-                `
+                '''
             
             }
         }
